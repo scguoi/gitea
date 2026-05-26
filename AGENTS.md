@@ -17,3 +17,4 @@
 - For CSS layout, prefer `flex-*` helpers over per-child `tw-ml-*` / `tw-mr-*` margins; fall back to `tw-*` utilities when specificity requires `!important`
 - Include authorship attribution in issue and pull request comments
 - Add `Co-Authored-By` lines to all commits, indicating name and model used
+- Do not report deployment, publishing, release, CI, or automation work as complete while the relevant remote job is still running. Wait for GitHub Actions to finish, inspect the final conclusion, and verify produced artifacts such as GHCR images before calling the task complete.
