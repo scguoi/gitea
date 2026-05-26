@@ -36,8 +36,7 @@ The workflow uses the repository `GITHUB_TOKEN` and requires:
 
 No Docker Hub credentials are required.
 
-The initial workflow publishes `linux/amd64` images. Add more platforms after the GHCR publishing
-path is stable and the runner capacity is known.
+The workflow publishes `linux/amd64` and `linux/arm64` images.
 
 ## Deployment example
 
